@@ -12,7 +12,7 @@
 
 	.mid{
 			font-size: 36px;
-		color: grey;
+		color: black;
   font-weight: bold;
   opacity: .6;
   text-align: center;
@@ -27,66 +27,116 @@
   margin-bottom: 1px;
 }
 
+#box {
+	align-self: center;
+  background-color: lightblue;
+  padding: 10px;
+  border: 10px solid black;
+margin-left: 300px;
+margin-right: 300px;
+  margin-top: 100px;
+  align-content: center;
+  margin-bottom: 20px;
+  
+}
+
+#box2 {
+	align-content: center;
+	background-color: lightgrey;
+	padding: 10px;
+	border: 5px;
+	margin-right: 400px;
+	margin-left: 400px;
+	align-content: center;
+
+}
+
+#bg {
+  width: 1500px;
+  height: 1500px;
+  background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAYFBMVEUEAAD///8AAAD29fUkIyPy8vKamZnW1dWWlZUfHR3g4OC7urr6+vp1dHTl5eXv7++qqanCwcHNzMyPjo5MS0uBgIASEBAzMjKJiIhUU1NaWVlhX18sKipoZ2dGRUU/Pj611p3IAAAHOUlEQVR4nO2d25qqMAyFMSgIchKPe9Tx/d9yqxQHRZLS0tSL/Lf6aZeUNE1XMAgEQRAEQRAEQRAEQRAEQRAEQRAEQRAEQRAEQRAEQRAEQZgQ+ATyEolfOe/cR7Sf90gew4Sg/wrF82fxrawBIMnXaRG+Mzs1Cre9VygWRRHH6yjf7r9CJSRVOPvIoVGYf35VhzKN/vnWCLDLBoa32DcKI3OFj4+pDj5FAqwGhxY344LYTuH9ky7eNALUw+NaNQKhsFY4m6UXPxIB1siodo3CwwQCb6zPPiTCERvTT6PwZxqFsyznv4yQoCNSoRT9FUZRsUtE5+isUIEGfdM4YmaJ+CW8DefxpglC6R/pnlUibNDRRErh0HJpBO9VxFaK2TOUnqcUeF+C+CQCDCRriq11zvaRJaPCKzr/QhVoqokVql+ORSF+dYpmIFOG0vaDuSQSgWalFC6mVjjbsCnEr85ShdLJBc4ypiUDIEXHcZo2Z+sSMSk846FUbQ7xqWxGyXMR4R86ikzdhpOH0js5j0I8lNZKIT6VDalZwimyub9TqUAzfSi9M2dRqJWz/ToRyDJNqeLE2U3OplhxKCQyapWzLd0oLDgU4qE0VQrxqWwOQ6ghqqBrFWieoTQLFzrga+wfVwaFeChVOZvKCsoqvyZa5zHJNl/rbJkZQg2x0Kk622Mqh8dxx09njSzBfeJGZdSdI4v1fuRNA3AhFVbuFeKhtFBZ6er+a48fDBHGeBTu0AHEKmerDacTeZrjfkEkMuo2ZwvXZmGdqgFxKMS3v+2RRRgYjoTakzDMUjykq1B6Mg7qsPWsEOaowsVcbfCNxwFn/Cd0vloQ8bwth5kPAwI8sd85V4gXJ9bW308pdF40JXI2+zkEczyYOs+8ic2hfdZIbJ0z5wL3JTqAg71C/FzV/jagvh+P5Zn1HKJOHd2HUrw4EdtfQsLe4D7Q4Gmj/XJMpEzu6/rEHDpaT9ITfgnd34ZEKP21HAAkeCBzv8OnUirLQEOd+cxC5wVhIpSWjgW6n6ROFyuAX/IgwDyh1x6FzpGF0QcDJHQZKnWfshGh9ALv79fmZ8iM28X5voI0Ab3kbPdxnzaRDlWtdVBVuq93E26vRWc5vsnLpy7scxSD8e1vx5h10zeFffYFDrMJUSX6K4NBgIckI04cx046dbaHQAdH3IblyZEK8ZyqXa3olduAjMMLTRxZKGvwxMbSFhYXBnGo8KyzWbZZfITjdJvM2dojCyI7N4LJtEeE0sidVSizr//oKcQDSO7C/Nzwng66EkiYgLbOHHvu81Gl0JM1mM/+7MsazOfv1rQG69pGdNnwefQJE9DGjTWYx2/ZCPRhDS7/MfaRwBwPpYEDa3CdsDbK8FuDTfwqNgq5rcHplbthTc9mMpU1OGOMoa1CVmtwxXoHNgKJIwv7FvyuvoOH9maY44Oazhq8iBIv7dvEQjeVNThbnXx14Gtag21qiFlR5R4foqDXzkU0DA2ySOMov4LPh0SMsQYPEm6WfaL8sr3Om9MLf/Lug8cvggqluPl0jRzNeBX3GDvukSiCpzUYwb1z0gIio65VoMErpYw7ofEQy4BqwQ/woriXR3hoAgFeQbuoUIq+iaPfxRiiGPw0zqLv4n64xRio/X1b7sazAp7KvBlUp8dSq87G1mw+HvK4THmhiJzNvVfEGKr40pZKtbKCb4RqEGinn15W8IVQzuvnKqDXMORLxXByCAdqR9SavbQqOX64aTuuVqtPj9QC+CE3RK1vl8h7POZs0NYeivf6HWBP1mtpF3Lq5JCzfP1K9+lyUdJO1sesPUQax52tz4XI2RYsDwv4KDDpbgjCKj809+T8tIl1jnOfD3IgG4Z8Cfx93w9ki/LGQvew+jn5nDcMmenT6LzF6Vi9dJq8+QXa1jc7PSTOG4aMBFob7P7GDQl+ZOEjZ4O9tT2rY6dz3jBkIPBMNDfQLDrnJ84bhkbro9pTdOgu4t+Ws8EUx9EvTUCuG4ZGC5zgNPrlslBHFgzPJHkVOIHL/NW0S7XVMR/Jnyewmb+5kknzKavAnwnsg++262/K2YituB6956U6b/IeIXCKRzT3Hs5MHVlwtBL8jcV6oZ/tenGDqrOxHlnA3tLzUn5oFSWMDO67zl5HQzf6YXxs7SByNs7b0FZi2J+hj49EMwiWdpDX8RxM78XVQLUFP7LgvoSBceNOuh26n1A/G/NdqEZkkJimw/9RgIbSzE+VDeAybqbG2H8wYGejGXPS3RlVoH8Zs/UP6ghBcrZPawsXeo/xu1++Y0I4Xobn/Jr3Tw16A7tthImQk9WbgDb0DG0O48HQxMa9dH+sy4+bjayslxctv9Jt+9t7XGdZ1EtuH/MAdw3Xy7GK47QoyjAMiyKN62h3uY6wYyU9vuNft1qe5jJI5vNbbB9vNvtKq1qfrx6cIAiCIAiCIAiCIAiCIAiCIAiCIAiCIAiCIAiCIAiCIAgP/gO4RF6OmUN+BgAAAABJRU5ErkJggg==') no-repeat  center;
+}
+
+
 a:hover, a:active {
   background-color: lightgrey;
   color: purple;
 }
 </style>
 </head>
-<body>
-<h1 class="hed">SWARN TYRES</h1>
-<h2 class="mid">We support your trucks</h2>
-<p><img src="C:\Users\Harjaspreet\coursera_course\site\photos\radial.jpg" width="250" height="235" alt="Radial Tyre" align="right"></p>
-<div>
+<body id="bg">
+<h1 class="hed" id="box">SWARN TYRES</h1>
+<h2 class="mid" id="box2">We support your trucks</h2>
+<div style="font-size: 24px" >
     Types of tyres available for you:
     <ol>
       <li>Radials</li>
       	<ol>
       		<li>Casing tyres(Range)</li>
       		<ol>
-      			<li><a href="C:\Users\Harjaspreet\coursera_course\site\photos" 
+      			<li><a href="https://drive.google.com/drive/folders/1nmGb17c0yXJtYjxTKPfouHCEVDm87ktV" 
       target="_blank" title="click to view the list">2000-2500</a></li>
-      			<li>2600-3000</li>
-      			<li>3100-3500</li>
-      			<li>3600-4200</li>
+      			<li><a href="https://drive.google.com/drive/folders/1gqN4dY3WIZ3KKTsz22ZbEw6fa793vPdF" 
+      target="_blank" title="click to view the list">2600-3000</a></li>
+      			<li><a href="https://drive.google.com/drive/folders/14Gd-lDxkzs5v8VzAmTdZi2pt4QC-h86Y" 
+      target="_blank" title="click to view the list">3100-3500</a></li>
+      			<li><a href="https://drive.google.com/drive/folders/1oPIgwgxbZPaTcCvIGl-nPbpG0nbfy4jg" 
+      target="_blank" title="click to view the list">3600-4200</a></li>
       		</ol>
       		<li>Trolleys(Range)</li>
       		<ol>
-      			<li>1000-1700</li>
-      			<li>1800-2400</li>
-      			<li>2500-2800</li>
-      			<li>2900-4000</li>
-      			<li>4100+</li>
+      			<li><a href="https://drive.google.com/drive/folders/1P_FcY14wYOD-GbwzicxpFLGzNG6hFk_z" 
+      target="_blank" title="click to view the list">1000-1700</a></li>
+      			<li><a href="https://drive.google.com/drive/folders/1aoZ5_IzM1RE-YnMRdVmaOtb5NWuPoiyh" 
+      target="_blank" title="click to view the list">1800-2400</a></li>
+      			<li><a href="https://drive.google.com/drive/folders/12sZb8oWpE_3gMi4cn0iZJP_At-9Scw3Y" 
+      target="_blank" title="click to view the list">2500-2800</a></li>
+      			<li><a href="https://drive.google.com/drive/folders/1DJxVlCEmXBBLgJqpOkd3l8OymJpAD21s" 
+      target="_blank" title="click to view the list">2900-4000</a></li>
+      			<li><a href="https://drive.google.com/drive/folders/1kL9Kh4R0_XqkdUteQcvSPn5Z07coEfWZ" 
+      target="_blank" title="click to view the list">4100+</a></li>
       		</ol>
       		<li>Khol</li>
       		<ol>
-      			<li>Upper</li>
-      			<li>Lower</li>
+      			<li><a href="https://drive.google.com/drive/folders/1oIsCrk4cOZdJVcmtO6UVySETL1YnDjw3" 
+      target="_blank" title="click to view the list">Upper</a></li>
+      			<li><a href="https://drive.google.com/drive/folders/1riIf5GvIduRGyuq8A3slPpNT3xSj0Rv2" 
+      target="_blank" title="click to view the list">Lower</a></li>
       		</ol>
       	</ol>
       	<li>Nylons</li>
-      	<p><img src="C:\Users\Harjaspreet\coursera_course\site\photos\Nylon.jpg" width="250" height="235" alt="Nylon Tyre" align="right"></p>
-      	     	<ol>
       		<li>Casing tyres(Range)</li>
       		<ol>
-      			<li>1000-2000</li>
-      			<li>2100-2500</li>
-      			<li>2600-3000</li>
-      			<li>3100-3500</li>
-      			<li>3600-4200</li>
+      			<li><a href="https://drive.google.com/drive/folders/1hX4eXTmdwlD2TXjtAUj9EvRPV-xV7yxr" 
+      target="_blank" title="click to view the list">1000-2000</a></li>
+      			<li><a href="https://drive.google.com/drive/folders/1BgKOH1exwoYSCghCaCeG-8lIfdpmxF9U" 
+      target="_blank" title="click to view the list">2100-2500</a></li>
+      			<li><a href="https://drive.google.com/drive/folders/1CXAS_wYtVPBwtVvNP16Jbxjryx99J8tZ" 
+      target="_blank" title="click to view the list">2600-3000</a></li>
+      			<li><a href="https://drive.google.com/drive/folders/1uJVhgvWQfxsaVqsj7UncnyUIOUHgyXQ3" 
+      target="_blank" title="click to view the list">3100-3500</a></li>
+      			<li><a href="https://drive.google.com/drive/folders/1vxy-wvSAdxLbyDtc9KnNj-SN2_7BayuI" 
+      target="_blank" title="click to view the list">3600-4200</a></li>
       		</ol>
       		<li>Trolleys(Range)</li>
       			<ol>
-      			<li>1000-1700</li>
-      			<li>1800-2400</li>
-      			<li>2500-2800</li>
-      			<li>2900-4000</li>
-      			<li>4100+</li>
+      			<li><a href="https://drive.google.com/drive/folders/1GsTPSviBy4PmdRQIwqX9q_cQZmMpJtPM" 
+      target="_blank" title="click to view the list">1000-1700</a></li>
+      			<li><a href="https://drive.google.com/drive/folders/1nK1e3XC8n2JU8ikzsqF5XusIz3qjysYX" 
+      target="_blank" title="click to view the list">1800-2400</a></li>
+      			<li><a href="https://drive.google.com/drive/folders/1PCgLJXyQZvgYKsO1gRg-apO6QBRoZNdk" 
+      target="_blank" title="click to view the list">2500-2800</a></li>
+      			<li><a href="https://drive.google.com/drive/folders/1UURWyiVk_ooQzgov3mSFKBL6rUJgTE0X" 
+      target="_blank" title="click to view the list">2900-4000</a></li>
+      			<li><a href="https://drive.google.com/drive/folders/10xa9fMzVG1Ei8mAavyknobsWcM3QCdjk" 
+      target="_blank" title="click to view the list">4100+</a></li>
       			</ol>
       			<li>Khol</li>
       			<ol>
-      				<li>Upper</li>
-      				<li>Lower</li>
+      				<li><a href="https://drive.google.com/drive/folders/1Rx8GhcnYCP1nDBoA39Al-dZNf6E4tVPS" 
+      target="_blank" title="click to view the list">Upper</a></li>
+      				<li><a href="https://drive.google.com/drive/folders/1B4sg9-D0xoCz8TjUSEYrCxujE4hqMv6T" 
+      target="_blank" title="click to view the list">Lower</a></li>
       			</ol>
       	</ol>
 
